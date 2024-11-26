@@ -1,0 +1,19 @@
+body {
+    background-color: #191919;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+img{
+    width: 80px;
+}
+.move-button{
+    border-radius: 150px;
+    padding: 50px ;
+    border: 3px solid whitesmoke;
+    background-color: transparent;
+    cursor: pointer;
+}
+.reset{
+    padding: 20px;
+}
+p{margin:40px;}

@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+    <h1 class="title">Rock Paper Scissors</h1>
+    <button class="move-button " onclick="
+    playGame('rock');
+    "><img src="images/rock.png" alt="rock"></button>
+
+    <button class="move-button " onclick="
+    playGame('paper');
+    "><img src="images/paper.png" alt="paper"></button>
+
+    <button class="move-button " onclick="
+    playGame('scissor');
+    "><img src="images/scissor.png" alt="scissor"></button>
+    <p class="result"></p>
+    <p class="stat">
+        You
+         <img src="images/scissor.png" alt="scissor">
+         <img src="images/rock.png" alt="rock"> 
+        Computer
+    </p>
+    <p class="status">Wins: 0, Losses: 0, Ties: 0</p>
+    
+
+    <button class="reset" onclick="resetCount()">Reset count</button>
+    <button class="reset js-auto-play" onclick="autoPlay();">Auto Play</button>
+
+    <script src="project2.js"></script>
+
+</body>
+</html>
